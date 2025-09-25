@@ -1,0 +1,4 @@
+{
+  "buildCommand": "cd aspire && npm run build",
+  "outputDirectory": "aspire/dist"
+}
