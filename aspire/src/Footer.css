@@ -1,0 +1,79 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer a {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-icons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 22px;
+}
+
+.footer-icons a {
+  color: #d4a200;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #fff;
+}
+
+/* 📱 RESPONSIVE DESIGN */
+
+/* Tablet (≤1024px) */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 18px 8px;
+  }
+
+  .footer-icons {
+    gap: 18px;
+    font-size: 20px;
+  }
+}
+
+/* Mobile (≤768px) */
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 6px;
+    font-size: 14px;
+  }
+
+  .footer-icons {
+    gap: 15px;
+    font-size: 18px;
+    flex-wrap: wrap; /* allow wrapping if space is small */
+  }
+}
+
+/* Small Mobile (≤480px) */
+@media (max-width: 480px) {
+  .footer {
+    padding: 12px 5px;
+    font-size: 13px;
+  }
+
+  .footer-icons {
+    gap: 12px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,94 @@
+/* 📌 Contact Form Container */
+/* .form-section {
+  background-image: url("./assets/pic1.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+    
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+   
+} */
+
+.form-section {
+  background-image: url("./assets/aspire.jpg"); /* Change path if needed */
+  background-size: cover; 
+  background-position: center;
+  background-attachment: fixed; /* ✅ Fixed background */
+  height: 100vh;         /* ✅ full viewport height */
+  width: 100%;          /* ✅ full viewport width */
+  display: flex;
+  justify-content: flex-end ;
+  align-items: center;   /* ✅ center form vertically + horizontally */
+  padding: 20px;
+  padding-right: 10%;
+  box-sizing: border-box; /* ✅ keeps padding inside */
+  overflow: hidden; 
+}
+
+
+/* 📌 Form Box */
+.user-form {
+  background: rgba(57, 57, 57, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* 📌 Form Heading */
+.user-form h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/* 📌 Inputs */
+.user-form input,textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.user-form input:focus {
+  border-color: #007bff;
+}
+
+/* 📌 Submit Button */
+.user-form button {
+  width: 100%;
+  padding: 12px;
+  background: #007bff;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.user-form button:hover {
+  background: #0056b3;
+}
+
+/* 📌 Success & Error Messages */
+.success-msg {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 15px;
+  font-weight: bold;
+}
